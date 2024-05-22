@@ -1,0 +1,18 @@
+git config --global user.name (git 쓸 때 마다 해줘야함 아마도)
+git config --global user.email (git 쓸 때 마다 해줘야함 아마도)
+
+git init - 초기화
+git add . - 올리고 싶은 파일 추가( . 은 전체를 뜻함)
+git commit -m"올리고싶은 이름?"
+git push
+
+래퍼지토리 처음 올릴 때
+git remote add origin 주소
+git push -u origin main
+
+클론만들기
+git clone 주소 내가하고싶은 폴더명
+
+업데이트한거 다운 받을 때
+git fetch
+git pull
