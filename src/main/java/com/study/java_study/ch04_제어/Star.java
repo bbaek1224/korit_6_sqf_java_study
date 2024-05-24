@@ -39,7 +39,7 @@ public class Star {
         }
 
         for(int m = 0; m < 5; m++) {
-            for(int n = 0; n < 5 - m; n++) {
+            for(int n = 0; n < 4 - m; n++) {
                 System.out.print(" ");
             }
             for(int o = 0; o < m + 1; o++) {
@@ -49,7 +49,7 @@ public class Star {
         }
 
         for(int p = 0; p < 5; p++) {
-            for(int q = 0; q < p + 1; q++) {
+            for(int q = 0; q < p; q++) {
                 System.out.print(" ");
             }
             for(int r = 0; r < 5 - p; r++) {
