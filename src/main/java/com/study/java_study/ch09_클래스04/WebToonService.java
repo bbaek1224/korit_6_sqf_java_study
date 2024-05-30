@@ -85,5 +85,7 @@ public class WebToonService {
 
     private void registerWebToon() {
         System.out.println("[ 웹툰 등록 ]");
+        int webToonId = webToonRepository.autoincrementWebToonId();
+
     }
 }

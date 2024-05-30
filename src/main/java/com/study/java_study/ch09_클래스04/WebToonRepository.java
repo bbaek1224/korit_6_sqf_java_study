@@ -9,6 +9,10 @@ public class WebToonRepository {
         webToons = new WebToonEntity[0];
     }
 
+    public int autoincrementWebToonId() {
+        return ++webToonId;
+    }
+
     private void extendWebToons() {
         WebToonEntity[] newWebToon = new WebToonEntity[webToons.length + 1];
         for(int i = 0; i < webToons.length; i++) {
